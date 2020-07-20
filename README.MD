@@ -5,4 +5,4 @@ This project is a homework assignement to teach how to get a Pycharm setup with 
 # Postman Screenshot
 ![postman request output](screenshots/postman.PNG)
 # SQL Data Screenshot
-![pycharm data query](screenshots/query.png)
+![pycharm data query](screenshots/query.PNG)
