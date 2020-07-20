@@ -9,12 +9,11 @@ services:
       - "5000:5000"
 
   db:
-      image: mysql:5.7
-      container_name: "MySQL_Database"
-      ports:
-        - "32000:3306"
-      environment:
-        MYSQL_ROOT_PASSWORD: root
-      volumes:
-          - ./db:/docker-entrypoint-initdb.d/:ro
-
+    image: mysql:5.7
+    container_name: "MySQL_Database"
+    ports:
+      - "32000:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/:ro
