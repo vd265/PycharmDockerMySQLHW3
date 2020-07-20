@@ -3,6 +3,6 @@ This project is a homework assignement to teach how to get a Pycharm setup with 
 [Download Assignment Here](PPFSQL-Homework.pdf)
 [View Assignement Video Here]()
 # Postman Screenshot
-![postman request output](screenshots/postman.png)
+![postman request output](screenshots/postman.PNG)
 # SQL Data Screenshot
-![pycharm data query](screenshots/postman.png)
+![pycharm data query](screenshots/query.png)
