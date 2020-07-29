@@ -1,6 +1,3 @@
-CREATE DATABASE mlbData;
-use mlbData;
-
 CREATE TABLE IF NOT EXISTS mlb_teams_2012 (
     `Team` VARCHAR(12) CHARACTER SET utf8,
     `Payroll_millions` NUMERIC(5, 2),
