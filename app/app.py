@@ -18,7 +18,7 @@ def mlb_import() -> List[Dict]:
     connection = mysql.connector.connect(**config)
     cursor = connection.cursor(dictionary=True)
 
-    cursor.execute('SELECT * FROM tblmlbImport')
+    cursor.execute('SELECT * FROM tbl_mlb_Import')
     result = cursor.fetchall()
 
     cursor.close()
